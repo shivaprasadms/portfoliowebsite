@@ -1,0 +1,19 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import Hero from "../components/portfolio/Hero.astro";
+import Projects from "../components/portfolio/Projects.astro";
+import Contact from "../components/Contact.astro";
+---
+
+<SiteLayout
+  title="Shivaprasad M S"
+  description="Shivaprasad M S — Software Developer"
+  navLinks={[
+    { href: "#projects", label: "projects" },
+    { href: "#contact", label: "contact" },
+  ]}
+>
+  <Hero />
+  <Projects />
+  <Contact />
+</SiteLayout>
