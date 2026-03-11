@@ -1,4 +1,3 @@
-import { CHROME_STORE_URL } from "./colorpal";
 import type { Link } from "../types";
 
 export interface Project {
