@@ -11,7 +11,12 @@ export interface Project {
 export const projects: Project[] = [
   {
     name: "LocalShare",
-    summary: "Share files via phone and pc using local network",
+    summary: `Share files via phone and pc using local network
+
+              -> Multicast is used to broadcast IP & PORT to clients
+              
+              -> TCP is used to transfer data              
+              `,
     techStack: "C#,  .NET,  WPF",
     image: "/projects/localshare.webp",
     links: [

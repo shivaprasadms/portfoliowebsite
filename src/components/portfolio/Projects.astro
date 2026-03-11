@@ -9,7 +9,7 @@ import { projects } from "../../data/projects";
   </h2>
 
   <div
-    class="grid grid-cols-1 gap-14 sm:grid-cols-[repeat(auto-fill,minmax(22rem,1fr))]"
+    class="whitespace-pre-line grid grid-cols-1 gap-14 sm:grid-cols-[repeat(auto-fill,minmax(22rem,1fr))]"
   >
     {
       projects.map((project) => (
@@ -34,7 +34,7 @@ import { projects } from "../../data/projects";
 
           <p class="text-muted mb-2 text-sm">{project.summary.toLowerCase()}</p>
 
-          <p class="text-muted-dark mb-3 font-mono text-xs">
+          <p class="mb-3 font-mono text-sm">
             {project.techStack.toLowerCase()}
           </p>
 
