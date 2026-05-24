@@ -42,7 +42,7 @@ export const projects: Project[] = [
     name: "Boardspace - Collaborative Whiteboard",
     summary: "Real-time collaborative whiteboard built with ASP.NET Core MVC, SignalR, and HTML5 Canvas. Supports multi-user drawing, live synchronization, and persistent storage of drawing elements.",
     techStack: "C#, ASP.NET Core, EF Core, SignalR",
-    image: "/projects/localshare-android.webp",
+    image: "/projects/boardspace.webp",
     links: [
       {
         label: "GitHub",
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     name: "EDURAG - Syllabus-Aware Examination & Grading System",
     summary: "Syllabus-aware RAG platform for automated exam generation & multimodal grading.",
     techStack: "python,langchain, streamlit",
-    image: "/projects/localshare-android.webp",
+    image: "/projects/edurag.webp",
     links: [
       {
         label: "GitHub",
